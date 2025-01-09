@@ -11,9 +11,9 @@ async def root():
 async def my_post():
     return "Post"
 
-@app.put('/')
-async def my_get():
-    return "Put"
+# @app.put('/')
+# async def my_get():
+#     return "Put"
 
 @app.get('/{item_id}')
 async def get_item_id(item_id):
